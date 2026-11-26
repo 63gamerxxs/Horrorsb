@@ -3,7 +3,7 @@ import requests
 import json
 import sys
 
-def generate_audio(text, output_path, voice_id="pNInz6obpgDaGzMKbWfR"):
+def generate_audio(text, output_path, voice_id="zfc8CJQpe8Kqyl0vvCzo"):
     api_key = os.environ.get("ELEVENLABS_API_KEY")
     if not api_key:
         print("Error: ELEVENLABS_API_KEY not set")
